@@ -1,8 +1,10 @@
 # Form Validation Component
 
-Simple form validation component with error checking. Built with resusability and scalability in mind for future projects and usecases.
+Simple form validation component to practice error checking. Built with resusability and scalability in mind for future projects and uses.
 
 ## Live Demo
+
+Live version hosted [here](https://frederick-chon.github.io/Form-Validation/)
 
 ## Built Using
 
