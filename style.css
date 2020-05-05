@@ -11,7 +11,7 @@
 }
 
 body {
-  background-color: #f9fafb;
+  background-color: #444444;
   font-family: 'Roboto', sans-serif;
   display: flex;
   align-items: center;
@@ -30,6 +30,7 @@ body {
 h2 {
   text-align: center;
   margin: 0 0 20px;
+  font-size: 30px;
 }
 
 .form {
@@ -43,7 +44,7 @@ h2 {
 }
 
 .form-control label {
-  color: #777;
+  color: rgb(31, 31, 31);
   display: block;
   margin-bottom: 5px;
 }
@@ -59,15 +60,8 @@ h2 {
 
 .form-control input:focus {
   outline: 0;
-  border-color: #777;
+  border-color: var(--button-color);
 }
-
-/* 
-.form-ctrl.success --> green border color
-.form-ctrl.error --> red border color
-
-will use JS to add/remove the .success/error classes to toggle border color
-*/
 
 .form-control.success input {
   border-color: var(--success-color);
